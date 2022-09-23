@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click The Button</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id = "btn">Click Me</button>
+      <h4>You clicked The button <span id="counter">0</span> Times</h4>
+    </div>
+  </body>
+  <script>
+      var count=1;
+        let btn = document.getElementById("btn");
+        function increase(){
+        document.getElementById("counter").innerHTML = count;
+          count++;
+      }
+
+        btn.addEventListener("click",increase);
+  </script>
+</html>
