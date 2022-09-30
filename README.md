@@ -15,3 +15,6 @@
 ## * Color Changer
 
 #### This Program generates random color on a button click it generates a hex code and change the body property of color in css using js.
+
+## * Joke Generator
+#### This project is one of my favourite. It generators a silly joke each time you click the button. It taught me how to handle api and process the data using promises.
