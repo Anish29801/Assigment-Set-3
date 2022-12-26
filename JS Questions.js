@@ -208,14 +208,16 @@ else{
     console.log(seasons[3]);
 }
 
-// 22. Write a program which tells the number of days in a month.
+// 25.
 
-let No_of_Days = 0;
-const Entered_month = prompt('Enter a month')
-if(Entered_month ==months[1]){
-    No_of_Days = 28;
-}
-else if(Entered_month)
-else{
-    No_of_Days=30
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+shoppingCart[0] = "Meat";
+const len = shoppingCart.length;
+shoppingCart[len -1] = 'Sugar'
+console.log(shoppingCart);
+
+for(let i =0; i<shoppingCart.length;i++){
+    if(shoppingCart[i] == 'Tea'){
+        shoppingCart[i] = 'Green Tea'
+    }
 }
