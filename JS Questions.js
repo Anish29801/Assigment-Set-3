@@ -190,21 +190,32 @@ else{
 }
 console.log(grade);
 
-// 21.
+// 21. Season Caculator
 const seasons = ['Autumn', 'Winter', 'Spring' ,'Summer'];
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 const user_input = prompt("Enter a month");
-if(user_input == seasons[8] || user_input == seasons[9] || user_input == seasons[10] || user_input == seasons[11]){
+if(user_input == seasons[8] || user_input == seasons[9] || user_input == seasons[10]){
     console.log(seasons[0]);
 }
-else if(user_input == seasons[0] || user_input == seasons[1] || user_input == seasons[2] || user_input == seasons[3]){
+else if(user_input == seasons[11] || user_input == seasons[0] || user_input == seasons[1]){
     console.log(seasons[1]);
 }
-else if(user_input == seasons[4] || user_input == seasons[5] || user_input == seasons[6] || user_input == seasons[7]){
+else if(user_input == seasons[2] || user_input == seasons[3] || user_input == seasons[4]){
     console.log(seasons[2]);
 }
 else{
     console.log(seasons[3]);
+}
 
+// 22. Write a program which tells the number of days in a month.
+
+let No_of_Days = 0;
+const Entered_month = prompt('Enter a month')
+if(Entered_month ==months[1]){
+    No_of_Days = 28;
+}
+else if(Entered_month)
+else{
+    No_of_Days=30
 }
